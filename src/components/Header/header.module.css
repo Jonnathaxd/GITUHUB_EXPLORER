@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
+
+.header_github_explorer {
+  display: flex;
+  justify-content: space-between;
+  font-family: "PT Sans Narrow", sans-serif !important;
+  margin-top: 29px;
+}
+
+.logo_header {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}

@@ -1,0 +1,39 @@
+.section_form {
+  margin: 80px 100px;
+}
+
+.titleFormHome {
+  font-size: 2.2rem;
+}
+
+.inputFormHome {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.buttonFormHome {
+  display: block;
+  width: 180px;
+  height: 50px;
+  font-size: 1.4rem;
+  color: #68ffe2;
+  background-color: #0a192f;
+  border: 3px solid #68ffe2;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.buttonFormHome:hover {
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
+    0 0 20px rgba(255, 255, 255, 0.2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+
+@keyframes identifier {
+}
