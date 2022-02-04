@@ -1,0 +1,47 @@
+.card_repository_item {
+  padding: 25px 43px;
+  background-color: #172a46;
+  border-radius: 8px;
+}
+
+.card_repository_item + div {
+  margin-top: 10px;
+}
+
+.button_repository_item {
+  padding: 9px 11px;
+  border: 3px solid #68ffe2;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #68ffe2;
+  font-weight: bolder;
+  transition: 0.3s;
+}
+
+.button_repository_item:hover {
+  border: 3px solid #172a46;
+  color: #172a46;
+  background-color: #68ffe2;
+}
+
+.header_repository_item{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.header_repository_item h3 {
+    font-size: 18px;
+    margin-top: 0;
+
+}
+.header_repository_item a {
+    align-self: flex-start;
+}
+
+.card_repository_item p {
+    font-size: 14px !important;
+    margin: 0;
+    max-width: 400px;
+}

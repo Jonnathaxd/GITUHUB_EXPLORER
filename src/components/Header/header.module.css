@@ -12,3 +12,9 @@
     align-items: center;
     gap: 9px;
 }
+
+.backImage {
+  cursor: pointer;
+  background-color: #0A192FFF;
+  border: none;
+}
